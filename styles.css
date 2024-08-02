@@ -1,0 +1,173 @@
+/* styles.css */
+
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: url('image/header-bg.jpg') no-repeat center center/cover;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    max-width: 700px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header-content p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+/* About section */
+#about {
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#about img {
+    max-width: 100%;
+    border: 5px solid #ddd;
+    padding: 5px;
+}
+
+/* Skills */
+#about .col-md-6 ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about .col-md-6 ul li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Services section */
+#services {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Projects section */
+#projects {
+    padding: 60px 0;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.project-item {
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+}
+
+.project-item img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Testimonials section */
+#testimonials {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.testimonial-item {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact section */
+#contact {
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header-content {
+        padding: 10px;
+    }
+
+    #about img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+}
